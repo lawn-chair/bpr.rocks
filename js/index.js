@@ -1,0 +1,1 @@
+async function randomImage(){const a=await fetch("/index.json"),n=await a.json();return n[Math.floor(Math.random()*n.length)]}u(document).on("click",()=>{randomImage().then(a=>{u(".index-splash-image").attr("style","background-image: url(img/"+a+")")})});
