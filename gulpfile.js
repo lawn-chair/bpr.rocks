@@ -9,6 +9,8 @@ var concat = require('gulp-concat');
 var del = require('del');
 var browserSync = require('browser-sync');
 var eslint = require('gulp-eslint');
+var folderIndex = require('gulp-folder-index');
+
 
 var uglify = composer(uglifyjs, console);
 
@@ -36,28 +38,38 @@ gulp.task('uglify', () => {
 });
 
 gulp.task('static', () => {
+    gulp.src(src + 'static/img/*')
+        .pipe(folderIndex({
+            extension: '.jpg',
+            filename: 'index.json',
+        }))
+        .pipe(gulp.dest(dest));
+
     return gulp.src(src + 'static/**/*')
         .pipe(gulp.dest(dest));
 });
 
 gulp.task('default', gulp.series(['pug', 'uglify', 'static', 'stylus']));
 
-gulp.task('watch', () => {
+gulp.task('watch', (done) => {
     gulp.watch(src + 'styl/**/*.styl', gulp.task('stylus'));
     gulp.watch(src + '**/*.pug', gulp.task('pug'));
     gulp.watch(src + 'js/**/*.js', gulp.task('uglify'));
     gulp.watch(src + 'static/**/*', gulp.task('static'));
+    done();
 });
 
-gulp.task('clean', () => {
+gulp.task('clean', (done) => {
     return del(dest + '**/*');
+    done();
 });
 
-gulp.task('browser-reload', () => {
+gulp.task('browser-reload', (done) => {
     browserSync.reload();
+    done();
 });
 
-gulp.task('serve', gulp.series('default', () => {
+gulp.task('serve', gulp.series('default', (done) => {
     browserSync({
         server: {
             baseDir: dest
@@ -66,6 +78,7 @@ gulp.task('serve', gulp.series('default', () => {
 
     gulp.watch(src + 'styl/**/*.styl', gulp.series('stylus', 'browser-reload'));
     gulp.watch(src + '**/*.pug', gulp.series('pug', 'browser-reload'));
-    gulp.watch(src + 'js/**/*.js', gulp.series('uglify', 'browser-reload'));
+    gulp.watch(src + '**/*.js', gulp.series('uglify', 'browser-reload'));
     gulp.watch(src + 'static/**/*', gulp.series('static', 'browser-reload'));
+    done();
 }))
