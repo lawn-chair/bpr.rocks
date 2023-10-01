@@ -1,3 +1,20 @@
+body {
+  font-family: Cabin, Helvetica, Arial;
+  background-color: #96c1ab;
+}
+h1,
+h2 {
+  text-align: center;
+}
+img {
+  width: 45%;
+}
+img.fullWidth {
+  width: 100%;
+}
+p {
+  margin-right: 10em;
+}
 .index-splash-image {
   background-image: url("/img/IMG_0267.jpg");
   background-position: center center;

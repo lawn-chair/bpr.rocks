@@ -1,0 +1,1 @@
+u("img").on("click",l=>{u(l.currentTarget).toggleClass("fullWidth")});
