@@ -10,5 +10,5 @@ async function randomImage()
 u(document).on("click", () => {
     randomImage().then((img) => {
         u('.index-splash-image').attr('style', 'background-image: url(img/' + img + ')');
-    })
+    });
 });

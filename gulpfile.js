@@ -39,10 +39,11 @@ gulp.task('uglify', () => {
 });
 
 gulp.task('static', () => {
-    gulp.src(src + 'static/img/*')
+    gulp.src(src + 'static/img/rocks/*')
         .pipe(folderIndex({
             extension: '.jpg',
             filename: 'index.json',
+            prefix: 'rocks'
         }))
         .pipe(gulp.dest(dest));
 
@@ -61,7 +62,7 @@ gulp.task('watch', (done) => {
 });
 
 gulp.task('clean', (done) => {
-    return del(dest + '**/*');
+    del(dest + '**/*');
     done();
 });
 
