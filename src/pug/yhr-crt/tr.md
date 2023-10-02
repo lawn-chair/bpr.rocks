@@ -4,6 +4,8 @@
 
 ![Roger, Paul and I at tunnel view](/img/yhr/yhr%20-%201.jpeg)
 
+[Just take me to the pictures, please](https://flic.kr/s/aHBqjAWSry)
+
 Roger, Paul and I set out to complete the Clark Range Traverse section hike of the Yosemite High Route from Andrew Skurka's [Yosemite High Route Guide](https://andrewskurka.com/product/yosemite-high-route-guide/). We planned 4 days to complete the \~40 miles/\~13k elevation gain/loss.
 
 Things got messy right out of the gate.  Staying in Camp 4 the night before our trip we were assigned the site adjacent to the restroom with an obnoxiously loud squeaking door and lights that stayed on all night due to traffic.  On top of that, in the morning Paul told us that his sleeping pad had a hole in it and needed to be patched before we could get started.  It turned out the hole was the side seam coming apart and we couldn't patch it.  So our nice 6:30am start was now delayed until at least 8:30am so we could wait for the store to open and buy a new sleeping pad.  Roger took off for the trailhead at 7:30am while Paul and I waited outside the store in Curry Village.
@@ -155,3 +157,5 @@ Once back on the trail, we made some coffee and ate a light breakfast before beg
 ![Half Dome from Little Yosemite Valley](/img/yhr/yhr%20-%2079.jpeg)
 ![Me on top of Nevada Falls](/img/yhr/yhr%20-%2080.jpeg)
 ![One last look back at Nevada Falls](/img/yhr/yhr%20-%2081.jpeg)
+
+[Full size pictures and a few extras that didn't make the TR.](https://flic.kr/s/aHBqjAWSry)
