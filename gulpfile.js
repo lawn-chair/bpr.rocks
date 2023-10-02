@@ -56,6 +56,7 @@ gulp.task('default', gulp.series(['pug', 'uglify', 'static', 'stylus']));
 gulp.task('watch', (done) => {
     gulp.watch(src + 'styl/**/*.styl', gulp.task('stylus'));
     gulp.watch(src + '**/*.pug', gulp.task('pug'));
+    gulp.watch(src + '**/*.md', gulp.task('pug'));
     gulp.watch(src + 'js/**/*.js', gulp.task('uglify'));
     gulp.watch(src + 'static/**/*', gulp.task('static'));
     done();
