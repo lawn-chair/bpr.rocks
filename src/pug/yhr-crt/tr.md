@@ -4,6 +4,8 @@
 
 ![Roger, Paul and I at tunnel view](/img/yhr/yhr%20-%201.jpeg)
 
+_Click/tap any picture for a bigger view_
+
 [Just take me to the pictures, please](https://flic.kr/s/aHBqjAWSry)
 
 Roger, Paul and I set out to complete the Clark Range Traverse section hike of the Yosemite High Route from Andrew Skurka's [Yosemite High Route Guide](https://andrewskurka.com/product/yosemite-high-route-guide/). We planned 4 days to complete the \~40 miles/\~13k elevation gain/loss.
