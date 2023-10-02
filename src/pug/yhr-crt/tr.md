@@ -61,7 +61,7 @@ We were surprised to see the Minarets, Ritter, Banner and even Mammoth Mountain!
 
 ![View from Red Peak Pass](/img/yhr/yhr%20-%2016.jpeg)
 
-As the ranger had told us when we picked up our permit, we had to navigate a few snow patches on the way down the South side of Red Peak Pass.
+As the ranger had told us when we picked up our permit, we had to navigate a few snow patches on the way down the North side of Red Peak Pass.
 
 ![Navigating snow patches](/img/yhr/yhr%20-%2017.jpeg)
 
