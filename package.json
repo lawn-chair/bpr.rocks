@@ -16,7 +16,6 @@
     "gulp-concat": "^2.6.1",
     "gulp-eslint": "^6.0.0",
     "gulp-folder-index": "0.0.3",
-    "gulp-gh-pages-will": "^0.5.5",
     "gulp-pug": "~5.0.0",
     "gulp-stylus": "^3.0.1",
     "gulp-uglify": "^3.0.1",
