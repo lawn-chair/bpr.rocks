@@ -10,8 +10,6 @@ var del = require('del');
 var browserSync = require('browser-sync');
 var eslint = require('gulp-eslint');
 var folderIndex = require('gulp-folder-index');
-var ghPages = require('gulp-gh-pages-will');
-
 
 var uglify = composer(uglifyjs, console);
 
@@ -81,10 +79,9 @@ gulp.task('serve', gulp.series('default', (done) => {
 
     gulp.watch(src + 'styl/**/*.styl', gulp.series('stylus', 'browser-reload'));
     gulp.watch(src + '**/*.pug', gulp.series('pug', 'browser-reload'));
+    gulp.watch(src + '**/*.md', gulp.series('pug', 'browser-reload'));
     gulp.watch(src + '**/*.js', gulp.series('uglify', 'browser-reload'));
     gulp.watch(src + 'static/**/*', gulp.series('static', 'browser-reload'));
     done();
 }));
-
-gulp.task('deploy', gulp.series('default', () => gulp.src(dest + '**/*').pipe(ghPages())));
     
