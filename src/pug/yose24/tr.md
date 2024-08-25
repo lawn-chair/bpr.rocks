@@ -211,6 +211,7 @@ Mt Conness to the North, Mono Lake, huge swathes of the Sierra in every directio
 ![Koip Peak looking South](/img/yose24/yose24%20-%2064.jpeg)
 ![Mono Lake from Koip Peak](/img/yose24/yose24%20-%2065.jpeg)
 ![Kuna glacier from Koip Peak](/img/yose24/yose24%20-%2068.jpeg)
+![Panorama from Koip Peak](/img/yose24/yose24%20-%2063.jpeg)
 
 Legs were starting to get tired at this point, so we skipped Kuna Peak and headed back down to the pass.  On the way down, and for a good chunk of the trail down from the pass, Mono Lake looked like you could almost reach out and touch it.
 
